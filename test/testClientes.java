@@ -19,9 +19,8 @@ import static org.junit.Assert.*;
 public class testClientes {
 
     Cliente c = new Cliente("Mario", "Montoya", "Haya", "475274", "670382928", 27);
-    
-    Cuentas cuenta = new Cuentas(4444444,LocalDate.of(2010, 10, 20),12000);
-    
+
+     Cuentas cuenta = new Cuentas(4444444,LocalDate.of(2010, 10, 20),12000);
     
     @Test
     public void getNombre() {
