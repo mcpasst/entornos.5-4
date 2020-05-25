@@ -40,17 +40,6 @@ public class testCuentas {
     }
 
     @Test
-    public void getLimite() {
-        assertEquals(400, c.getLimite());
-    }
-
-    @Test
-    public void setLimite() {
-        c.setLimite(200);
-        assertEquals(200, c.getLimite());
-    }
-
-    @Test
     public void getFecha() {
         assertEquals(LocalDate.of(2010, 10, 20), c.getFecha());
     }

@@ -188,7 +188,7 @@ public class Cliente {
     }
 
     /**
-     * Metodo Para retirar dinero de la cuenta elegida por el cliente.
+     * Metodo Para ver dinero de las cuenta del cliente.
      */
     public void verSaldo() {
         for (int i = 0; i < this.cuentas.size(); i++) {
