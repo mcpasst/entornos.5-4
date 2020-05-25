@@ -18,9 +18,9 @@ public class Cuentas {
     private LocalDate fecha;
     private double saldo;
 
-    public Cuentas(int numeroTarjeta, int limite, LocalDate fecha, double saldo) {
+    public Cuentas(int numeroTarjeta,  LocalDate fecha, double saldo) {
         this.numeroTarjeta = numeroTarjeta;
-        this.limite = limite;
+        this.limite = this.LIMITE;
         this.fecha = fecha;
         this.saldo = saldo;
     }
