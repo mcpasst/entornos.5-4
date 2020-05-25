@@ -94,4 +94,10 @@ public class Cliente {
           this.cuentas.get(cuenta).setSaldo(this.cuentas.get(cuenta).getSaldo()+cantidad);
     }
     
+    public void verSaldo(){
+        for (int i = 0; i < this.cuentas.size(); i++) {
+            System.out.println(this.cuentas.get(i));
+        }
+    }
+    
 }
