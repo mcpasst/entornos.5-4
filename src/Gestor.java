@@ -14,26 +14,26 @@ public class Gestor {
 
     static Scanner sc = new Scanner(System.in);
 
-    public void modificarDatos(Cliente c, int opc) {
+    public void modificarDatos(Cliente c, int opc, String nombre, String direc, String ni, String telef) {
         switch (opc) {
             case 1:
                 System.out.println("Modificar nombre");
-                String nombrenuevo = sc.nextLine();
+                String nombrenuevo = nombre;
                 c.setNombre(nombrenuevo);
                 break;
             case 2:
                 System.out.println("Modificar direccion");
-                String direccion = sc.nextLine();
+                String direccion = direc;
                 c.setDireccion(direccion);
                 break;
             case 3:
                 System.out.println("Modificar NIF");
-                String nif= sc.nextLine();
+                String nif= ni;
                 c.setNif(nif);
                 break;
             case 4:
                 System.out.println("Modificar Telefono");
-                String telefono = sc.nextLine();
+                String telefono = telef;
                 c.setTelefono(telefono);
                 break;
         }
