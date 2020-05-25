@@ -13,7 +13,18 @@ import java.util.Scanner;
 public class Gestor {
 
     static Scanner sc = new Scanner(System.in);
-
+    
+    /**
+     * Metodo Para modificar los atributos de un objeto Cliente
+     *
+     * @param  c es el objeto cliente a modificadr
+     * @param opc es la opcion elegida para realizar
+     * @param nombre es el nuevo valor del nombre
+     * @param direc es la nueva direccion
+     * @param ni es el nuevo NIF
+     * @param telef es el nuevo telefono
+     * 
+     */
     public void modificarDatos(Cliente c, int opc, String nombre, String direc, String ni, String telef) {
         switch (opc) {
             case 1:
